@@ -1,14 +1,21 @@
 
-Conway's Game of Life on GPU using CUDA
-=========
+# Conway's Game of Life on GPU using CUDA
+
+This is a project forked from user NightElfik work on github, whose goal is to :
+* Understand how the project work
+* Comment the code
+* Give ideas for improvement
+
 This project compares performance of CPU and GPU in evaluation of famous Conway's Game of Life.
 The performance was tested on three different implementations.
 The most sophisticated version of the algorithm on GPU stores data in one bit-per-cell array and leads to speed-up of 480x compared to serial CPU algorithm.
 The best implementation for CPU turned out to be lookup-table approach leading to 60x speedups over serial CPU.
 
-**Author**: Marek Fiser &lt; code@marekfiser.cz &gt;
+**Original Author**: Marek Fiser &lt; code@marekfiser.cz &gt;
 
 **Project page**: http://www.marekfiser.com/Projects/Conways-Game-of-Life-on-GPU-using-CUDA
+
+**Forked from**: https://github.com/NightElfik/Game-of-life-CUDA
 
 
 **License**: Public domain, see LICENSE.txt for details.
